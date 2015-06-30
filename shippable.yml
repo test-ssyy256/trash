@@ -21,7 +21,9 @@ script:
     - ./bootstrap.sh > /dev/null
     - ./b2 headers > /dev/null
     - popd
+    - pwd
     - mkdir build
     - cd build
+    - pwd
     - cmake .. -G"CodeBlocks - Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
     - make
