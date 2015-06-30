@@ -16,6 +16,7 @@ script:
     - cpp --version
     - make --version
     - cmake --version
+    - which ln
     - git submodule update --init --recursive
     - pushd submodule/boost
     - ./bootstrap.sh
