@@ -11,7 +11,6 @@ before_install:
     - sudo apt-get update
     - sudo apt-get install g++-4.9 -y
     - sudo apt-get install cmake -y
-    - sudo apt-get install libboost-all-dev -y
     - apt-get install python-dev -y
     - ls -la /usr/include
     - rm /usr/bin/gcc /usr/bin/g++ /usr/bin/cpp
