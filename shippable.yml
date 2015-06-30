@@ -29,7 +29,7 @@ script:
     - pushd submodule/boost
     - ./bootstrap.sh
     - ./b2 headers
-    - ./b2
+    - ./b2 cxxflags='-I/usr/include/python2.7'
     - popd
     - pwd
     - mkdir build
