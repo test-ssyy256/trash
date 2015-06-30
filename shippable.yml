@@ -20,6 +20,7 @@ script:
     - pushd submodule/boost
     - ./bootstrap.sh > /dev/null
     - ./b2 headers > /dev/null
+    - ./b2 > /dev/null
     - popd
     - pwd
     - mkdir build
