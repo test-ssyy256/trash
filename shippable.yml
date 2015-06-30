@@ -17,6 +17,7 @@ script:
     - make --version
     - cmake --version
     - pushd submodule/boost
+    - ls -la
     - ./bootstrap > /dev/null
     - ./b2 headers > /dev/null
     - popd
