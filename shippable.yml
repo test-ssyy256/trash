@@ -18,9 +18,9 @@ script:
     - cmake --version
     - git submodule update --init --recursive
     - pushd submodule/boost
-    - ./bootstrap.sh > /dev/null
-    - ./b2 headers > /dev/null
-    - ./b2 > /dev/null
+    - ./bootstrap.sh
+    - ./b2 headers
+    - ./b2
     - popd
     - pwd
     - mkdir build
